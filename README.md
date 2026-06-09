@@ -1,71 +1,114 @@
-# aws-cloud-portfolio
-Cloud-based portfolio website deployed on AWS S3 and CloudFront, demonstrating AWS fundamentals, web development skills, and cloud engineering projects.
+# AWS Cloud Portfolio Website
 
-# AWS Portfolio Website
+A personal portfolio website hosted on Amazon S3 and delivered globally using Amazon CloudFront. This project demonstrates practical AWS cloud skills, static website hosting, content delivery, and deployment workflows.
 
-A personal portfolio website hosted on Amazon S3 and delivered globally through Amazon CloudFront.
+## Live Demo
+
+🌐 Portfolio Website: https://d1a4rsgkywgpmq.cloudfront.net
 
 ## Project Overview
 
-This project demonstrates how to deploy and host a static website using AWS cloud services. The website serves as my personal portfolio and showcases my skills, projects, and achievements.
+This project was built to showcase my skills, projects, certifications, and achievements through a responsive portfolio website deployed on AWS.
+
+The website is hosted on Amazon S3 and distributed through Amazon CloudFront, providing fast and reliable access from edge locations worldwide.
+
+## AWS Architecture
+
+User → CloudFront → Amazon S3 Bucket → Portfolio Website Files
+
+### Services Used
+
+#### Amazon S3
+
+* Stores website files (HTML, CSS, JavaScript, images)
+* Provides scalable and durable object storage
+
+#### Amazon CloudFront
+
+* Delivers website content through a global CDN
+* Reduces latency and improves performance
+* Caches static assets closer to users
+
+#### AWS IAM
+
+* Manages secure access and permissions
+* Implements least-privilege access practices
+
+## Features
+
+* Responsive portfolio design
+* Cloud-hosted static website
+* Global content delivery through CloudFront
+* Secure AWS resource configuration
+* Fast website loading and low latency
+* Professional project showcase
 
 ## Technologies Used
+
+### Cloud Services
 
 * Amazon S3
 * Amazon CloudFront
 * AWS IAM
+
+### Frontend
+
 * HTML5
 * CSS3
 * JavaScript
-* Git & GitHub
 
-## Features
+### Tools
 
-* Responsive portfolio website
-* Static website hosting using Amazon S3
-* Global content delivery through CloudFront
-* Secure access management with IAM
-* Fast and scalable deployment
+* Git
+* GitHub
 
-## AWS Services Used
+## Skills Demonstrated
 
-### Amazon S3
+* Static Website Hosting
+* Cloud Storage Management
+* Content Delivery Networks (CDN)
+* AWS Security and Permissions
+* Cloud Deployment
+* Web Development
+* Troubleshooting and Debugging
+* Version Control using Git and GitHub
 
-* Stores website files and assets
-* Provides highly durable cloud storage
+## Challenges Faced
 
-### Amazon CloudFront
+During deployment, I worked through:
 
-* Delivers content with low latency
-* Improves website performance through caching
+* CloudFront distribution configuration
+* S3 bucket permissions
+* Origin Access Control (OAC) setup
+* Access Denied troubleshooting
+* Cache invalidation and deployment verification
 
-### AWS IAM
-
-* Manages secure access and permissions
+These challenges helped me gain practical experience with real-world AWS troubleshooting.
 
 ## Learning Outcomes
 
-Through this project, I gained hands-on experience with:
+Through this project, I learned:
 
-* Static website hosting
-* Cloud storage management
-* CDN configuration
-* AWS security and permissions
-* Cloud deployment troubleshooting
+* How to host a website using Amazon S3
+* How CloudFront improves performance and availability
+* How IAM permissions and bucket policies work
+* How to deploy and maintain cloud-based web applications
+* Best practices for AWS resource configuration
 
-## Live Demo
-
-Portfolio Website:
-https://d1a4rsgkywgpmq.cloudfront.net
-
-## Future Improvements
+## Future Enhancements
 
 * Custom domain integration
-* HTTPS certificate configuration
+* HTTPS certificate using AWS Certificate Manager
 * Visitor counter using AWS Lambda and DynamoDB
-* CI/CD pipeline for automated deployments
+* CI/CD deployment pipeline
+* Contact form integration
+* Analytics and monitoring
 
 ## Author
 
 Aastha Shetty
-Aspiring Cloud Engineer | Computer Engineering Student
+
+Computer Engineering Student | Aspiring Cloud Engineer
+
+GitHub: https://github.com/Astha-S12
+
