@@ -1,119 +1,160 @@
-# AWS Cloud Portfolio Website
+# ☁️ AWS Cloud Portfolio Website
 
-A personal portfolio website hosted on Amazon S3 and delivered globally using Amazon CloudFront. This project demonstrates practical AWS cloud skills, static website hosting, content delivery, and deployment workflows.
+![AWS](https://img.shields.io/badge/AWS-S3%20%7C%20CloudFront%20%7C%20IAM-orange?logo=amazon-aws)
+![Frontend](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-green)
+![Deployment](https://img.shields.io/badge/Deployment-Cloud%20Hosted-blue)
 
-## 🚀 Live Demo
-The AWS Cloud Portfolio is a collection of cloud-based projects deployed on AWS, demonstrating real-world cloud infrastructure design and deployment practices.
+A fully responsive **cloud-hosted portfolio website** built using AWS services.
 
-It includes multiple services and applications built using AWS infrastructure.
+This project demonstrates cloud deployment, static website hosting, CDN distribution, and IAM security configuration.
 
-📌 Tech Stack: AWS (EC2, S3, IAM, VPC, CloudFront), Node.js, Express
+---
 
-⚠️ Note: Live deployments may be temporarily offline due to cost optimization and resource cleanup.
+# 🚀 Project Overview
 
-## Project Overview
+This project was built to showcase my **skills, projects, certifications, and achievements** through a responsive portfolio website deployed on AWS.
 
-This project was built to showcase my skills, projects, certifications, and achievements through a responsive portfolio website deployed on AWS.
+The website is hosted on **Amazon S3** and delivered globally using **Amazon CloudFront**, ensuring fast and reliable access from edge locations worldwide.
 
-The website is hosted on Amazon S3 and distributed through Amazon CloudFront, providing fast and reliable access from edge locations worldwide.
+---
 
-## AWS Architecture
+# 🖥️ Live Website Preview
 
-User → CloudFront → Amazon S3 Bucket → Portfolio Website Files
+### 🌐 Portfolio Homepage
 
-### Services Used
+![Portfolio Website](screenshots/portfolio-homepage.png)
 
-#### Amazon S3
+💡 Fully responsive cloud-hosted portfolio deployed using AWS S3 + CloudFront
+
+---
+
+# 🏗️ AWS Architecture
+
+```text id="q1m8xv"
+User
+   ↓
+CloudFront (CDN)
+   ↓
+Amazon S3 Bucket
+   ↓
+Portfolio Website Files
+```
+
+---
+
+# 🧰 AWS Services Used
+
+## ☁️ Amazon S3
 
 * Stores website files (HTML, CSS, JavaScript, images)
 * Provides scalable and durable object storage
+* Hosts static website content
 
-#### Amazon CloudFront
+## 🌍 Amazon CloudFront
 
-* Delivers website content through a global CDN
+* Global Content Delivery Network (CDN)
 * Reduces latency and improves performance
-* Caches static assets closer to users
+* Caches static assets at edge locations
 
-#### AWS IAM
+## 🔐 AWS IAM
 
 * Manages secure access and permissions
-* Implements least-privilege access practices
+* Implements least-privilege access control
+* Secures AWS resources
 
-## Features
+---
+
+# ✨ Features
 
 * Responsive portfolio design
 * Cloud-hosted static website
-* Global content delivery through CloudFront
-* Secure AWS resource configuration
-* Fast website loading and low latency
+* Global CDN distribution using CloudFront
+* Secure AWS configuration using IAM
+* Fast loading with optimized caching
 * Professional project showcase
 
-## Technologies Used
+---
 
-### Cloud Services
+# 💻 Technologies Used
 
-* Amazon S3
+## Cloud
+
+* Amazon Web Services S3
 * Amazon CloudFront
-* AWS IAM
+* AWS Identity and Access Management
 
-### Frontend
+## Frontend
 
 * HTML5
 * CSS3
 * JavaScript
 
-### Tools
+## Tools
 
 * Git
 * GitHub
 
-## Skills Demonstrated
+---
+
+# 🧠 Skills Demonstrated
 
 * Static Website Hosting
 * Cloud Storage Management
-* Content Delivery Networks (CDN)
-* AWS Security and Permissions
+* CDN Implementation
+* AWS Security & IAM Policies
 * Cloud Deployment
 * Web Development
-* Troubleshooting and Debugging
-* Version Control using Git and GitHub
+* Debugging & Troubleshooting
+* Version Control (Git & GitHub)
 
-## Challenges Faced
+---
+
+# ⚠️ Challenges Faced
 
 During deployment, I worked through:
 
 * CloudFront distribution configuration
-* S3 bucket permissions
-* Origin Access Control (OAC) setup
+* S3 bucket permissions setup
+* Origin Access Control (OAC) issues
 * Access Denied troubleshooting
-* Cache invalidation and deployment verification
+* Cache invalidation and deployment updates
 
-These challenges helped me gain practical experience with real-world AWS troubleshooting.
+These challenges improved my practical understanding of real-world AWS deployments.
 
-## Learning Outcomes
+---
+
+# 📚 Learning Outcomes
 
 Through this project, I learned:
 
-* How to host a website using Amazon S3
-* How CloudFront improves performance and availability
-* How IAM permissions and bucket policies work
-* How to deploy and maintain cloud-based web applications
-* Best practices for AWS resource configuration
+* Hosting static websites using Amazon S3
+* Using CloudFront for performance optimization
+* Managing IAM roles and secure access
+* Deploying cloud-based web applications
+* AWS best practices for configuration and security
 
-## Future Enhancements
+---
 
-* Custom domain integration
-* HTTPS certificate using AWS Certificate Manager
-* Visitor counter using AWS Lambda and DynamoDB
-* CI/CD deployment pipeline
-* Contact form integration
-* Analytics and monitoring
+# 🚀 Future Enhancements
 
-## Author
+* Add custom domain using Route 53
+* Enable HTTPS using AWS Certificate Manager
+* Add visitor counter using Lambda + DynamoDB
+* CI/CD pipeline using GitHub Actions
+* Add contact form integration
+* Add analytics dashboard
 
-Aastha Shetty
+---
 
+# 👩‍💻 Author
+
+**Aastha Shetty**
 Computer Engineering Student | Aspiring Cloud Engineer
 
-GitHub: https://github.com/Astha-S12
+GitHub: [https://github.com/Astha-S12](https://github.com/Astha-S12)
 
+---
+
+# 📌 Project Summary
+
+Cloud-based portfolio website deployed using AWS S3 and CloudFront, demonstrating cloud fundamentals, static website hosting, and secure AWS architecture design.
