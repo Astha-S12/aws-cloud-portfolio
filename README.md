@@ -22,7 +22,7 @@ The website is hosted on **Amazon S3** and delivered globally using **Amazon Clo
 
 ### 🌐 Portfolio Homepage
 
-![Portfolio Website](screenshots/portfolio-homepage.png)
+![Portfolio Website](aws-cloud-portfolio.png)
 
 💡 Fully responsive cloud-hosted portfolio deployed using AWS S3 + CloudFront
 
