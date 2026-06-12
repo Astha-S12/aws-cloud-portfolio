@@ -2,9 +2,14 @@
 
 A personal portfolio website hosted on Amazon S3 and delivered globally using Amazon CloudFront. This project demonstrates practical AWS cloud skills, static website hosting, content delivery, and deployment workflows.
 
-## Live Demo
+## 🚀 Live Demo
+The AWS Cloud Portfolio is a collection of cloud-based projects deployed on AWS, demonstrating real-world cloud infrastructure design and deployment practices.
 
-🌐 Portfolio Website: https://d1a4rsgkywgpmq.cloudfront.net
+It includes multiple services and applications built using AWS infrastructure.
+
+📌 Tech Stack: AWS (EC2, S3, IAM, VPC, CloudFront), Node.js, Express
+
+⚠️ Note: Live deployments may be temporarily offline due to cost optimization and resource cleanup.
 
 ## Project Overview
 
